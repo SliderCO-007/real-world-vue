@@ -22,8 +22,8 @@ const routes = [
     component: About,
   },
   {
-    path: '*',
-    component: EventList,
+    path: '/:pathMatch(.*)*',
+    component: PageNotFound,
   },
 ]
 
